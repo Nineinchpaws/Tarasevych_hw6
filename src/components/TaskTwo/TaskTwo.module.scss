@@ -1,0 +1,36 @@
+.input-paragraph {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: lightgrey;
+    color: darkviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+
+    &:hover {
+        background-color: grey;
+        color: greenyellow;
+    }
+}
+
+.sub {
+    color: red;
+    padding: 10px;
+    font-size: 24px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+
+    &:hover {
+        color: darkviolet;
+        background-color: greenyellow;
+    }
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.invalid-form {
+    input[type="text"] {
+        border: 2px solid red;
+    }
+}
